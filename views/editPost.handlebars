@@ -3,12 +3,12 @@
   <h2 class="title mt-5">edit post</h2><hr>
   <form class="edit-post-form">
     <div>
-        <label for="post-title">post title:</label>
-      <input class="input" name="post-title" type="text" value="{{post.title}}" />
+        <label for="post_title">post title:</label>
+      <input class="input" name="post_title" type="text" value="{{post.title}}" />
     </div>
     <div>
-        <label for="post-content">post content:</label>
-      <input class="textarea" name="post-content" type="text" value="{{post.post_content}}" />
+        <label for="post_content">post content:</label>
+      <input class="textarea" name="post_content" type="text" value="{{post.post_content}}" />
     </div>
     <div class="is-pulled-right">
        created by you on {{format_date post.created_at}}
