@@ -5,8 +5,8 @@ const path = require('path');
 
 const helpers = require('.utils/helpers');
 // Set up Handlebars.js engine with custom helpers
-const hbs = exhbs.create({ helpers});
-const exhbs = require('express-handlebars');
+const exphbs = require('express-handlebars');
+const hbs = exphbs.create({ helpers });
 
 const session = require('express-session');
 
@@ -28,7 +28,7 @@ const sess = {
 app.use(session(sess));
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.engine('handlebars', hbs.engine);
