@@ -1,0 +1,32 @@
+[
+    {
+        "content": "Awesome! kudos to everyone who have contributed",
+        "user_id": 1,
+        "post_id": 4
+    },
+    {
+        "content": "We just reached a million subscribers! Fantastic!",
+        "user_id": 3,
+        "post_id": 5
+    },
+    {
+        "content": "This is great news!",
+        "user_id": 3,
+        "post_id": 2
+    },
+    {
+        "content": "Wow! I didn't know that, thank you!",
+        "user_id": 3,
+        "post_id": 4
+    },
+    {
+        "content": "Good post, very helpful!",
+        "user_id": 5,
+        "post_id": 3
+    },
+    {
+        "content": "Very nice!",
+        "user_id": 2,
+        "post_id": 1
+    }
+]

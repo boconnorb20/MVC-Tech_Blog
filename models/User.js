@@ -12,7 +12,7 @@ class User extends Model {
 // defining tables, columns and configuration
 User.init(
     {
-        id: {
+        user_id: {
           type: DataTypes.INTEGER,
           allowNull: false,
           primaryKey: true,
@@ -67,7 +67,7 @@ User.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'user'
+    modelName: 'User'
   }
 );
 
